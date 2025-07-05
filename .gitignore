@@ -1,0 +1,48 @@
+# Python Sanal Ortamları
+env/
+venv/
+.env
+.venv
+ENV/
+VENV/
+
+# Python cache ve derlenmiş dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Paketleme ve kurulum dosyaları
+build/
+dist/
+*.egg-info/
+*.egg
+develop-eggs/
+
+# Jupyter Notebook checkpoint dosyaları
+.ipynb_checkpoints
+
+# Streamlit özel dosyaları (Özellikle gizli bilgileri içeren secrets dosyası için)
+.streamlit/
+secrets.toml
+
+# IDE ve Editör ayar dosyaları
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# İşletim sistemi özel dosyaları
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log dosyaları
+*.log
