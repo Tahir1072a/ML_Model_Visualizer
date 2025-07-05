@@ -69,7 +69,7 @@ def get_dataset(name, noise, n_samples):
 X, y = get_dataset(dataset_name, noise, n_samples)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# --- SINIFLANDIRICILAR (Sidebar'daki değerlerle dinamik olarak oluşturuluyor) ---
+# --- SINIFLANDIRICILAR ---
 names = [
     "Nearest Neighbors", "Linear SVM", "Decision Tree",
     "Random Forest", "Naive Bayes"
